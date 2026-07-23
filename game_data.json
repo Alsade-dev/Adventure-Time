@@ -1,0 +1,183 @@
+{
+  "locations": [
+    {
+      "id": 1,
+      "name": "Bahen 1F",
+      "brief_description": "You are on the first floor of the Bahen Center. There are elevators to the East, and an exit from the building to St. George street to the South. You see something shiny on the ground -- looks like a toonie? There is a pencil laying nearby as well. ",
+      "long_description": "You are on the first floor of the Bahen Center. It's usually crowded at this time of the day, but today it's eerily quiet. Only a few students are studying at the table near the doors. You better not disturb them. One student is rushing down the corridor, wearing a heavy-looking backpack and carrying a textbook in their arms. He drops his pencil. You also see something shiny on the ground nearby -- looks like a toonie? There are elevators to the East, and an exit from the building to St. George street to the South.",
+      "available_commands": {
+        "go south": 3,
+        "go east": 2
+      },
+      "items": ["toonie", "pencil"]
+    },
+    {
+      "id": 2,
+      "name": "Bahen elevator",
+      "brief_description": "You are in the Bahen elevator but it is broken. You do not move from the first floor, but notice a USB drive on the ground.",
+      "long_description": "You are in the Bahen elevator. Before the doors close, a passerby informs you that the elevators aren't working. You are about to step out (exit West) but the person points at your USB drive on the floor.",
+      "available_commands": {
+        "go west": 1
+      },
+      "items": ["usb drive"]
+    },
+    {
+      "id": 3,
+      "name": "St. George Street",
+      "brief_description": "You are now on St. George Street. It is bustling with students heading to classes. The other side of the road is South of where you are. Someone exits from the Bahen door behind you.",
+      "long_description": "You are now on St. George Street. It is bustling with students heading to classes and cars passing by. Professor Paul rushes out from the Bahen doors behind you and head south towards Robarts. He hands you a jar of jam and hurries off???",
+      "available_commands": {
+        "go south": 4,
+        "go north": 1
+      },
+      "items": ["jam"]
+    },
+     {
+      "id": 4,
+      "name": "Robarts Library",
+      "brief_description": "You are at the entrance to Robarts Library a beggar asks you for a toonie. The Newman Center is to your West, and the dining hall is further down south. Also, Whitney Hall is to your East.",
+      "long_description": "You are now at the entrance to Robarts library. A beggar is tugging an extremely large sack. The person walking ahead of you gives him a dollar. He sees you and asks for a toonie. The Newman Center is to your West, and the dining hall is further down South. Also, Whitney Hall is to your East.",
+      "available_commands": {
+        "go west": 5,
+        "go south": 6,
+        "go east" : 7,
+        "go north": 3
+      },
+      "items": []
+    },
+    {
+      "id": 5,
+      "name": "The Newman Center",
+      "brief_description": "You see a sign for the lost and found box, but the grumpy old troll from Dora is guarding it. A sign nearby says you must answer his riddle to access its contents. The key fob you need for your dorm is inside!",
+      "long_description": "You see a sign for the lost and found box, but the grumpy old troll from Dora is guarding it. A sign nearby says you must answer his riddle to access its contents. Something important is at stake: your key fob, which you will need to enter your dorm, is inside. The door back to St. George Street is to the East.",
+      "available_commands": {
+        "go east": 4
+      },
+      "items": ["key fob"]
+    },
+    {
+      "id": 6,
+      "name": "Fung Dining Hall",
+      "brief_description": "In the Howard Ferguson Dining Hall, a staff member Sarah is holding your lucky mug while cleaning the table you sat at for breakfast. She will only hand it over for an item she deems to be of equal value",
+      "long_description": "The staff in the Howard Ferguson Dining Hall are currently on break. You see Sarah, one of the staff members cleaning the table you sat at for lunch. She has your lucky mug in hand. She informs you that she was about to use it to make some coffee and will not hand it over unless you exchange it for something of equal value.",
+      "available_commands": {
+        "go north": 4
+      },
+      "items": ["lucky mug"]
+    },
+    {
+      "id": 7,
+      "name": "Whitney Hall",
+      "brief_description": "You are now in front of Whitney Hall. To the East is the Commuter Student Commons and to the West is Robarts. To the South is Sidney Smith Commons",
+      "long_description": "You are now in front of Whitney Hall. You see your friends headed West to the Panda food truck in front of Robarts. South of you is Sidney Smith Commons. You remember doing an assignment there recently. To your East is the Commuter Center.",
+      "available_commands": {
+        "go south": 8,
+        "go east": 9,
+        "go west": 4
+      },
+      "items": []
+    },
+    {
+      "id": 8,
+      "name": "Sidney Smith Commons 1F",
+      "brief_description": "You are on the 1st floor of Sidney Smith Commons. Whitney Hall is back up North. There is a long line blocking your view. The Caribbean Students' Association is distributing free cookies! The only way to get through to the classroom you last visited is to join the line. By the looks of it, this will take ages! The cookies look fire though...",
+      "long_description": "You are on the 1st floor of Sidney Smith Commons. Whitney Hall is back up North. The usually busy hallway has transformed into organized chaos. A long, winding line of students stretches from one end of the corridor to the other, completely blocking your path. Laughter and chatter fill the air as the Caribbean Students' Association energetically hands out trays of freshly baked cookies. The warm smell of chocolate, cinnamon, and coconut drifts toward you, making your stomach growl despite your panic about the looming deadline. You crane your neck, trying to spot a gap in the crowd, but it’s hopeless — the line snakes back on itself at least twice. Beyond the wall of students, you can just barely make out the classroom where you last studied. If you want to get through, it seems there’s only one option: join the line and wait your turn. Judging by the size of the crowd and the rate at which people are moving, this could take a while. Still… the cookies look fire.",
+      "available_commands": {
+        "go north": 7
+      },
+      "items": ["box of cookies"]
+    },
+    {
+      "id": 9,
+      "name": "Commuter Student Center",
+      "brief_description": "You enter the Commuter Student Center. To the West of the building is Whitney Hall, and to the East is the Sir Dan's Quad. While inside, you notice the receptionist is desperately flashing her gel pen to get it to work. She is frustrated and doesn't want to help you until she can update her to-do list.",
+      "long_description":  "You step into the Commuter Student Center, a cozy space buzzing softly with the hum of conversation and the tapping of laptop keys. Posters about upcoming events cover the bulletin boards, and a few students lounge on the couches, half-studying and half-scrolling through their phones. To the West lies Whitney Hall. To the East, through the large glass windows, you can see the benches of Sir Dan’s Quad. Behind the reception desk, the receptionist is muttering under her breath, aggressively scribbling on a notepad. On the desk, you notice your laptop charger sitting there, just waiting for you to grab it. Perhaps if you offer her a pencil, she’ll help you get it.",
+
+      "available_commands": {
+        "go east": 10,
+        "go west": 7
+      },
+      "items": ["laptop charger"]
+    },
+    {
+      "id": 10,
+      "name": "Sir Dan's Quad",
+      "brief_description": "You are in Sir Dan’s Quad. The Commuter Student Center is to the West, and your dorm lies to the South. A squirrel chitters nearby before darting up a tree.",
+      "long_description": "You are now in the Sir Dan's Quad. The Commuter Student Center is to the West. The air feels fresher here, and your dorm building is just within view, Southward. A sudden rustling near your feet catches your attention. A squirrel stares you dead in the eyes...as if it knows something you don't. Hmmm... ",
+      "available_commands": {
+        "go west": 9,
+        "go south": 11
+      },
+      "items": []
+    },
+    {
+      "id": 11,
+      "name": "Dorm",
+      "brief_description": "You made it to your dorm! You can see the quad, which lies North, through an open window. Use your key fob to open the door",
+      "long_description": "You made it to your dorm! You can see the quad, which lies North, through an open window. Use your key fob to open the door to the building and your room. You do have your key fob...right?",
+
+      "available_commands": {
+        "go north": 10
+      },
+      "items": []
+    }
+  ],
+  "items": [
+    {
+      "name": "toonie",
+      "description": "There is a toonie on the ground. Someone must have dropped it.",
+      "start_position": 1,
+      "target_position": 4,
+      "target_points": 5
+    },
+    {
+      "name": "pencil",
+      "description": "A wooden pencil lies on the ground. It looks freshly sharpened — someone must have dropped it in a rush.",
+      "start_position": 1,
+      "target_position": 9,
+      "target_points": 5
+    },
+    {
+      "name": "usb drive",
+      "description": "It's your USB drive! What a coincidence.",
+      "start_position": 2,
+      "target_position": 11,
+      "target_points": 10
+    },
+    {
+      "name": "jam",
+      "description": "Grape jam. Yuck!",
+      "start_position": 3,
+      "target_position": 6,
+      "target_points": 5
+    },
+    {
+      "name": "key fob",
+      "description": "You didn't even realize you lost it! You will need your key fob to enter your dorm room.",
+      "start_position": 5,
+      "target_position": 11,
+      "target_points": 10
+    },
+    {
+      "name": "lucky mug",
+      "description": "You got your lucky mug back. Hurray!",
+      "start_position": 6,
+      "target_position": 11,
+      "target_points": 10
+    },
+    {
+      "name": "box of cookies",
+      "description": "A warm box of freshly baked cookies. Yummyy",
+      "start_position": 8,
+      "target_position": 6,
+      "target_points": 2
+    },
+    {
+      "name": "laptop charger",
+      "description": "Your HP laptop charger. It might need tape to hold it together, but it's been with you for years.",
+      "start_position": 9,
+      "target_position": 11,
+      "target_points": 10
+    }
+  ]
+}
